@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Phone Directory</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Student Phone Directory</h1>
+    <form id="student-form" class="mt-4">
+      <div class="mb-3">
+        <label for="student-name" class="form-label">Student Name</label>
+        <select id="student-name" class="form-select">
+          <!-- Options will be populated by JavaScript -->
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="phone-number" class="form-label">Phone Number</label>
+        <input type="text" id="phone-number" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
